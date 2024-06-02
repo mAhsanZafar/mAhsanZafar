@@ -310,8 +310,8 @@ def scripts(speech):
 '''Check if any new emails'''
 def check_mail(speech):
     # Replace these placeholders with your actual email and password
-    email = 'sa7761251@gmail.com'
-    password = 'Ahsan@50449'
+    email = 'enter ur email'
+    password = 'enter password'
 
     obj = imaplib.IMAP4_SSL('imap.gmail.com', '993')
     obj.login(email, password)
